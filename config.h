@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=16:antialias=true:autohint=true";
-static char *font2[] = { "Inconsolata for Powerline:pixelsize=16:antialias=true:autohint=true" };
+static char *font = "SourceCodePro-Regular:pixelsize=25:antialias=true:autohint=true";
+static char *font2[] = { "Inconsolata for Powerline:pixelsize=80:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -108,7 +108,7 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#000000",   /* 256 -> bg */
 	"#d3e0e2",   /* 257 -> fg */
-	"#add8e6", /* 258 -> cursor */
+	"#e6d8ad", /* 258 -> cursor */
 };
 
 
