@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "SourceCodePro-Regular:pixelsize=25:antialias=true:autohint=true";
-static char *font2[] = { "Inconsolata for Powerline:pixelsize=80:antialias=true:autohint=true" };
+static char *font = "SourceCodePro-Regular:pixelsize=20:antialias=true:autohint=true";
+static char *font2[] = { "NotoColorEmoji:pixelsize=18:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -89,25 +89,25 @@ float alpha = 0.85;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
+	"#ee241d",
 	"#21d34e",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
+	"#eeaa21",
+	"#45ddff",
+	"#b162d6",
+	"#68cc6a",
 	"#a89984",
 	"#928374",
-	"#fb4934",
-	"#b8bb26",
+	"#ff4934",
+	"#dddd26",
 	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
+	"#83eeee",
+	"#eeaaee",
+	"#8df07c",
 	"#ebdbb2",
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#000000",   /* 256 -> bg */
-	"#d3e0e2",   /* 257 -> fg */
+	"#d3e0ff",   /* 257 -> fg */
 	"#e6d8ad", /* 258 -> cursor */
 };
 
